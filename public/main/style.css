@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(to bottom right, rgb(228, 232, 235)0%, rgb(151, 192, 234)50%, rgb(246, 245, 217)50%, rgb(242, 164, 216)100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.navbar {
+    box-shadow: 2px 10px 30px 2px rgb(98, 99, 100);
+}
+
+.myBut {
+    margin-top: 3%;
+    height: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.myPut {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    border-color: rgb(171, 167, 167);
+
+}
+
+.list {
+    margin-top: 0;
+    border-color: rgb(171, 167, 167);
+    border-style: solid;
+    width: 100%;
+    height: 6vh;
+    border-width: 2px;
+    background-color: aliceblue;
+}
+
+.but {
+    width: 50%;
+}
+
+.checkbox {
+    margin-right: 25%;
+    margin-left: 5%;
+    padding: 0;
+    margin-top: 2vh;
+
+}
+
+.footer {
+    margin-bottom: 0;
+    top: 100vh;
+    background-color: rgb(212, 237, 229);
+    text-align: center;
+    padding: 1%;
+    font-size: 12px;
+}
+
+.myBut2 {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 90%;
+    margin-top: 2%;
+    background: linear-gradient(320deg, rgb(127, 178, 227), rgb(157, 134, 172), rgb(85, 43, 137));
+    color: aliceblue;
+    border-width: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.text {
+    width: 90%;
+    height: 90%;
+    margin-left: 6%;
+    margin-top: 2px;
+    color: blueviolet;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.delete {
+    margin: 0;
+    padding: 0;
+
+}
+
+@media screen and (max-width: 912px) {
+    .myBut {
+        margin-top: 10%;
+    }
+
+    .myPut {
+        width: 80%;
+    }
+
+    .but {
+        width: 90%;
+    }
+
+    .myBut2 {
+        margin-left: 80%;
+    }
+}
